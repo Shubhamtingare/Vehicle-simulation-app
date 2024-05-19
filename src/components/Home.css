@@ -1,0 +1,120 @@
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.home-container h1 {
+  padding-left: 40px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333;
+}
+.scenarios-dropdown {
+  padding-left: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.scenario-section,
+.vehicles-section,
+.simulation-section,
+.grid-section {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #444;
+  color: white;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: green;
+}
+
+.stop-btn {
+  background-color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 1px;
+  padding-left: 30px;
+}
+
+.grid-row {
+  display: contents;
+}
+
+.grid-cell {
+  /* background-color: black; */
+  width: 30px;
+  height: 30px;
+  border: 1px solid #444;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  position: relative;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  position: relative;
+}
+
+.vehicle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.blue-vehicle {
+  background-color: blue;
+}
+
+.red-vehicle {
+  background-color: red;
+}

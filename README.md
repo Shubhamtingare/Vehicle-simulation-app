@@ -68,3 +68,46 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Vehicle Simulation Application
+
+This application allows users to create, update, delete, and manage scenarios and vehicles. Vehicles can be simulated to move based on given parameters.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/vehicle-simulation.git
+   cd vehicle-simulation
+   ```
+
+2. Install dependencies for both frontend and backend:
+
+   ```bash
+   npm install
+   cd server
+   npm install
+   ```
+
+3. Start the Node.js server:
+
+   ```bash
+   node server.js
+   ```
+
+4. Start the React application:
+   ```bash
+   cd ..
+   npm start
+   ```
+
+## Deployment
+
+The application is deployed on [Netlify](https://www.netlify.com).
+
+## Usage
+
+- Use the forms to add new scenarios and vehicles.
+- View the list of scenarios and vehicles.
+- Simulate vehicle movements based on the parameters provided.

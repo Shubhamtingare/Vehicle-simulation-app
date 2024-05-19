@@ -1,0 +1,27 @@
+.vehicle-grid {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.vehicle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.vehicle.red-vehicle {
+  background-color: rgba(255, 0, 0, 0.5);
+  left: 100px;
+  top: 140px;
+}
+
+.vehicle.blue-vehicle {
+  background-color: rgba(0, 0, 255, 0.5);
+  left: 240px;
+  top: 240px;
+}
